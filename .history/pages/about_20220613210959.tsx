@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 import { Fragment } from 'react'
 import Image from 'next/image'
-import NavIcon from '../public/nav-icon.png'
+import NavIcon from '/assets/nav-icon.png'
 import Link from 'next/link'
 
-const Work: NextPage = () => {
+const About: NextPage = () => {
   return (
     <Fragment>
       <nav className="container flex justify-between items-center px-4 py-4">
@@ -21,9 +21,9 @@ const Work: NextPage = () => {
           </li>
         </ul>
       </nav>
-      <h1 className="font-sans text-5xl font-bold text-slate-600">Work</h1>
+      <h1 className="font-sans text-5xl font-bold text-slate-600">About</h1>
     </Fragment>
   )
 }
 
-export default Work
+export default About
