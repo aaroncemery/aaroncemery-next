@@ -34,9 +34,9 @@ const Home: NextPage = () => {
         />
         <div className="absolute bg-mesh-gradient bg-cover w-full h-full top-0 left-0 mix-blend-screen aspect-video rounded-xl"></div>
         <div className="absolute bg-mesh-gradient bg-cover w-full h-full top-0 left-0 mix-blend-multiply aspect-video rounded-xl"></div>
-        <div className="z-10 absolute text-7xl text-white font-bold text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <h1 className="mix-blend-overlay">India Trip</h1>
-          <h1 className="mix-blend-overlay">2022</h1>
+        <div className="z-10 absolute text-7xl text-white mix-blend-overlay font-bold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <h1 className="">India Trip</h1>
+          <h1 className="">2022</h1>
         </div>
       </div>
     </Fragment>

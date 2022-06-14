@@ -9,7 +9,7 @@ import Link from 'next/link'
 const Home: NextPage = () => {
   return (
     <Fragment>
-      <nav className="container flex justify-between items-center m-auto py-4">
+      <nav className="container flex justify-between items-center px-4 py-4">
         <Image src={NavIcon} alt={'aaroncemery icon'} height={30} width={30} />
         <ul className="flex justify-between items-center gap-4">
           <li>
@@ -24,21 +24,19 @@ const Home: NextPage = () => {
         </ul>
       </nav>
       <div
-        className={`container relative bg-hero-pattern rounded-xl m-auto bg-cover aspect-video`}
+        className={`container relative bg-hero-pattern rounded-xl m-auto bg-cover`}
       >
         <Image
           src={HeroImage}
           alt="hero image"
-          className="relative rounded-xl"
+          className="relative"
           layout="fill"
         />
-        <div className="absolute bg-mesh-gradient bg-cover w-full h-full top-0 left-0 mix-blend-screen aspect-video rounded-xl"></div>
-        <div className="absolute bg-mesh-gradient bg-cover w-full h-full top-0 left-0 mix-blend-multiply aspect-video rounded-xl"></div>
-        <div className="z-10 absolute text-7xl text-white font-bold text-center top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <h1 className="mix-blend-overlay">India Trip</h1>
-          <h1 className="mix-blend-overlay">2022</h1>
-        </div>
+        <div className="absolute bg-mesh-gradient bg-cover w-full h-full top-0 left-0 mix-blend-screen aspect-video"></div>
+        <div className="absolute bg-mesh-gradient bg-cover w-full h-full top-0 left-0 mix-blend-multiply aspect-video"></div>
+        <h1 className="z-10">test</h1>
       </div>
+      <h1 className="font-sans text-5xl font-bold text-slate-600">Hello</h1>
     </Fragment>
   )
 }
