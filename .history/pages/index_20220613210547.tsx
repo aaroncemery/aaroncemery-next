@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import { Fragment } from 'react'
 import Image from 'next/image'
+import NavIcon from '/nav-icon.png'
+import HeroImage from '/lehguidelead.jpeg'
 import Link from 'next/link'
 
 const Home: NextPage = () => {
@@ -8,7 +10,7 @@ const Home: NextPage = () => {
     <Fragment>
       <nav className="container flex justify-between items-center m-auto py-4">
         <Image
-          src="/assets/nav-icon.png"
+          src="/nav-icon.png"
           alt={'aaroncemery icon'}
           height={30}
           width={30}
@@ -29,7 +31,7 @@ const Home: NextPage = () => {
         className={`container relative bg-hero-pattern rounded-xl m-auto bg-cover aspect-video`}
       >
         <Image
-          src="/assets/lehguidelead.jpeg"
+          src="/lehguidelead.jpeg"
           alt="hero image"
           className="relative rounded-xl"
           layout="fill"
